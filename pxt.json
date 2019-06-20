@@ -8,11 +8,16 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "extension.ts",
+        "extension.cpp",
+        "shims.d.ts",
+        "enums.d.ts",
+        "SparkFunLSM6DS3.cpp",
+        "SparkFunLSM6DS3.h"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
-    "additionalFilePaths": []
+    "public": false
 }
