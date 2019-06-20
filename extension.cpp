@@ -40,4 +40,9 @@ namespace groveIMU {
     float readGryoZ() {
         return imu.readFloatGyroZ();
     }
+
+    //%
+    int computeY() {
+        return imu.computeY();
+    }
 }
